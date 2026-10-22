@@ -1,0 +1,8 @@
+rank,id,recommendation,requests_affected_per_year,working_days_saved_per_year,evidence
+1,R1,Check every request against the rules before it is sent,1697,6293,"1749 returns in the log had a reason a rule covers (Effective date too soon 361, Target position not available 185, Grade change too large for a transfer 183, Employee not in stated position 129); 141 were only found at system update. Median loop 30 working hours."
+2,R6,Run org design review and budget approval in parallel for new positions,781,1310,"Median org design review 14.1 h and budget approval 13.4 h, run one after the other today on 805 requests."
+3,R3,Detect dependent transactions at submission and sequence them,482,1169,497 requests waited on hold at system update for an average of 32 working hours.
+4,R5,Balance validation work between HR Ops Airport and HR Ops Central,3731,1136,HR Ops Airport takes a median 8.4 working hours to validate (5278 validations) versus 4.8 for HR Ops Central.
+5,R7,Replace free-text clarifications with required fields,327,771,337 returns were general clarifications with no structured reason; median loop 38 working hours. Estimate assumes half can be prevented.
+6,R4,Pre-approve budget for positions in the approved headcount plan,261,195,Finance steps take a median 15 working hours in the month-end window versus 9 otherwise (269 steps).
+7,R2,Route director approval automatically,47,159,48 promotions were returned by the HRBP to add the director; median loop 27 working hours.

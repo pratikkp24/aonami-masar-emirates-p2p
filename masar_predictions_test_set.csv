@@ -1,0 +1,142 @@
+request_id,request_type,current_state,will_be_returned,return_probability,will_be_delayed,delay_probability,reasons
+P2P-105095,Transfer,"In progress, System update",yes,1.00,yes,1.00,"Already returned 1 time(s): Clarification requested | Already 84 working hours in, against a 48-hour target | Return risk: V19: P2P-105009 (Transfer) is still open for the same position."
+P2P-105098,Transfer,"On hold, System update",yes,1.00,yes,1.00,"Already returned 1 time(s): Grade change too large for a transfer | Already 84 working hours in, against a 40-hour target | On hold at System update: dependent transaction open | Return risk: V05: Grade moves from G5 to G3, a change of 2. | Return risk: V19: P2P-104989 (Transfer) is still open for the same position."
+P2P-105101,End of Service,"On hold, System update",no,0.23,yes,1.00,"Already 84 working hours in, against a 48-hour target | On hold at System update: dependent transaction open | Delay risk: V16: P2P-105021 (End of Service) is still open for the same employee."
+P2P-105115,Create Position,"In progress, Budget approval",yes,1.00,yes,1.00,"Already returned 1 time(s): Clarification requested | Already 81 working hours in, against a 56-hour target | Return risk: Create Position request"
+P2P-105123,Promotion,"In progress, Director approval",yes,1.00,yes,1.00,"Already returned 2 time(s): Approval routing: director approval missing; Invalid grade change | Already 74 working hours in, against a 56-hour target | Return risk: V07: New grade G10 is +3 from G7. | Return risk: V10: G7 to G10 needs director approval."
+P2P-105127,Transfer,"In progress, Payroll impact check",yes,1.00,yes,1.00,"Already returned 1 time(s): Target position not available; Grade change too large for a transfer | Already 70 working hours in, against a 48-hour target | Return risk: V04: POS-10157 is occupied by E200157. | Return risk: V05: Grade moves from G8 to G10, a change of 2."
+P2P-105131,Transfer,"On hold, System update",no,0.51,yes,1.00,"Already 68 working hours in, against a 48-hour target | On hold at System update: dependent transaction open | Return risk: V19: P2P-105009 (Transfer), P2P-105095 (Transfer) is still open for the same position."
+P2P-105136,Transfer,"On hold, System update",yes,1.00,yes,1.00,"Already returned 1 time(s): Clarification requested | Already 64 working hours in, against a 48-hour target | On hold at System update: dependent transaction open | Return risk: V19: P2P-105103 (Transfer) is still open for the same position."
+P2P-105140,Delete Position,"In progress, System update",yes,1.00,yes,1.00,"Already returned 1 time(s): Position not vacant; Position has direct reports | Already 59 working hours in, against a 40-hour target | Return risk: V17: POS-10219 is occupied by E200219. | Return risk: V18: Other positions report to POS-10219. | Return risk: V19: P2P-105031 (Transfer) is still open for the same position."
+P2P-105144,Promotion,"On hold, System update",no,0.34,yes,1.00,"Already 57 working hours in, against a 40-hour target | On hold at System update: dependent transaction open | Delay risk: V16: P2P-105096 (Promotion) is still open for the same employee."
+P2P-105145,Transfer,"In progress, System update",no,0.51,yes,0.92,Return risk: V19: P2P-105076 (Transfer) is still open for the same position.
+P2P-105146,Transfer,"On hold, System update",yes,1.00,yes,0.98,"Already returned 1 time(s): Grade change too large for a transfer | On hold at System update: dependent transaction open | Return risk: V05: Grade moves from G12 to G7, a change of 5. | Return risk: V19: P2P-105029 (Transfer), P2P-105058 (Delete Position) is still open for the same position."
+P2P-105147,End of Service,"In progress, HR Ops validation",yes,1.00,no,0.35,Already returned 1 time(s): Last working day too soon (found at system update) | Return risk: V02: Last working day 2026-10-05 is 3 days away.
+P2P-105148,End of Service,"In progress, Final settlement",yes,1.00,no,0.44,Already returned 1 time(s): Position action missing | Return risk: V15: No position action chosen.
+P2P-105151,Create Position,"In progress, HR Ops validation",yes,1.00,no,0.31,Already returned 1 time(s): Clarification requested | Return risk: Create Position request
+P2P-105154,Delete Position,"In progress, System update",no,0.35,yes,1.00,"Already 51 working hours in, against a 40-hour target | Delay risk: Delete Position request"
+P2P-105155,End of Service,"In progress, System update",no,0.23,no,0.15,
+P2P-105158,End of Service,"In progress, Position action decision",yes,1.00,no,0.44,Already returned 1 time(s): Position action missing | Return risk: V15: No position action chosen.
+P2P-105159,Transfer,"In progress, HRBP approval",yes,1.00,yes,1.00,"Already returned 1 time(s): Employee not in stated position | Return risk: V05: Grade moves from G6 to G11, a change of 5. | Return risk: V03: POS-10385 is held by E200385, not E200356. | Return risk: V19: P2P-105069 (Transfer) is still open for the same position."
+P2P-105161,End of Service,"In progress, Final settlement",yes,1.00,no,0.19,Already returned 1 time(s): Clarification requested
+P2P-105162,End of Service,"On hold, System update",no,0.24,yes,0.80,On hold at System update: dependent transaction open | Delay risk: V16: P2P-105031 (Transfer) is still open for the same employee.
+P2P-105163,End of Service,"In progress, System update",no,0.24,no,0.14,
+P2P-105165,Promotion,"In progress, Compensation review",no,0.45,no,0.43,Return risk: V10: G5 to G7 needs director approval.
+P2P-105166,Create Position,"In progress, HRBP approval",no,0.48,yes,0.85,"Waiting 15 h at HRBP approval, longer than 90% of past requests (9 h) | Return risk: Create Position request"
+P2P-105167,Delete Position,"In progress, Budget approval",yes,1.00,yes,0.93,Already returned 1 time(s): Position not vacant | Return risk: V17: POS-12512 is occupied by E202512. | Delay risk: Delete Position request
+P2P-105168,Promotion,"In progress, Director approval",yes,1.00,no,0.35,Already returned 1 time(s): Approval routing: director approval missing | Return risk: V10: G12 to G13 needs director approval.
+P2P-105170,Delete Position,"In progress, Org design review",no,0.35,yes,0.85,"Waiting 27 h at Org design review, longer than 90% of past requests (25 h) | Delay risk: Delete Position request"
+P2P-105174,Promotion,"In progress, Director approval",yes,1.00,no,0.35,Already returned 1 time(s): Approval routing: director approval missing | Return risk: V10: G10 to G11 needs director approval.
+P2P-105175,Transfer,"On hold, System update",no,0.40,yes,0.88,"Waiting 12 h at System update, longer than 90% of past requests (10 h) | On hold at System update: dependent transaction open | Delay risk: V16: P2P-105112 (Promotion), P2P-105153 (Transfer) is still open for the same employee."
+P2P-105176,Transfer,"On hold, System update",no,0.40,yes,0.88,"Waiting 16 h at System update, longer than 90% of past requests (10 h) | On hold at System update: dependent transaction open | Delay risk: V16: P2P-105042 (Transfer) is still open for the same employee."
+P2P-105179,Promotion,"In progress, System update",yes,1.00,no,0.31,Already returned 1 time(s): Clarification requested
+P2P-105180,End of Service,"In progress, Final settlement",yes,1.00,yes,0.86,Already returned 1 time(s): Last working day too soon | Return risk: V02: Last working day 2026-10-07 is 2 days away. | Delay risk: V16: P2P-105091 (End of Service) is still open for the same employee.
+P2P-105181,Transfer,"In progress, HR Ops validation",yes,1.00,yes,0.71,Already returned 1 time(s): Effective date too soon (found at system update) | Return risk: V01: Effective date 2026-10-15 is 10 days after submission.
+P2P-105183,Delete Position,"On hold, System update",yes,1.00,yes,1.00,Already returned 1 time(s): Position not vacant; Position has direct reports | On hold at System update: dependent transaction open | Return risk: V17: POS-10157 is occupied by E200157. | Return risk: V18: Other positions report to POS-10157. | Return risk: V19: P2P-105127 (Transfer) is still open for the same position.
+P2P-105185,Transfer,"In progress, Payroll impact check",no,0.40,no,0.38,
+P2P-105186,Promotion,"In progress, HR Ops validation",yes,1.00,yes,0.67,Already returned 1 time(s): Justification missing | Return risk: V08: Justification has 11 characters.
+P2P-105187,Create Position,"In progress, HR Ops validation",yes,1.00,yes,0.59,"Already returned 1 time(s): Budget reference missing | Return risk: V11: ""BR-2026"" is not a valid budget reference. | Return risk: Create Position request"
+P2P-105190,End of Service,"In progress, Position action decision",yes,1.00,no,0.19,Already returned 1 time(s): Clarification requested
+P2P-105192,Create Position,"In progress, Budget approval",yes,1.00,no,0.37,Already returned 1 time(s): Clarification requested | Return risk: Create Position request
+P2P-105194,End of Service,"In progress, Final settlement",no,0.24,no,0.19,
+P2P-105195,Transfer,"In progress, Payroll impact check",no,0.40,yes,0.88,Delay risk: V16: P2P-105152 (Transfer) is still open for the same employee.
+P2P-105196,Promotion,"In progress, System update",yes,1.00,yes,0.61,Already returned 1 time(s): Effective date must be the 1st | Return risk: V09: Effective date 2026-10-27 is not the 1st.
+P2P-105197,Transfer,"On hold, System update",no,0.51,yes,0.92,"Waiting 17 h at System update, longer than 90% of past requests (10 h) | On hold at System update: dependent transaction open | Return risk: V19: P2P-105098 (Transfer) is still open for the same position."
+P2P-105199,Transfer,"In progress, Payroll impact check",no,0.40,no,0.38,
+P2P-105201,Transfer,"In progress, Releasing manager approval",yes,1.00,no,0.38,Already returned 1 time(s): Clarification requested
+P2P-105202,Create Position,"Returned to you, Correct and resubmit",yes,1.00,yes,0.59,Already returned 1 time(s): Reports-to position invalid (found at system update) | Return risk: V13: POS-11256 is frozen. | Return risk: Create Position request
+P2P-105203,Create Position,"In progress, Org design review",yes,1.00,yes,0.66,Already returned 1 time(s): Grade outside job band | Return risk: V12: G9 is outside JC-1040's band G6 to G8. | Return risk: Create Position request
+P2P-105204,Delete Position,"In progress, System update",yes,1.00,yes,0.79,Already returned 1 time(s): Effective date too soon | Return risk: V01: Effective date 2026-10-14 is 8 days after submission. | Delay risk: Delete Position request
+P2P-105205,Promotion,"In progress, System update",no,0.35,no,0.31,
+P2P-105206,Transfer,"In progress, HRBP approval",no,0.40,no,0.38,
+P2P-105208,Create Position,"In progress, Budget approval",yes,1.00,yes,0.82,"Already returned 1 time(s): Budget reference missing; Reports-to position invalid | Return risk: V11: ""pending"" is not a valid budget reference. | Return risk: V13: POS-10167 is frozen. | Return risk: Create Position request"
+P2P-105210,Transfer,"In progress, Releasing manager approval",yes,1.00,yes,0.71,Already returned 1 time(s): Effective date too soon | Return risk: V01: Effective date 2026-10-15 is 9 days after submission.
+P2P-105211,Delete Position,"In progress, Budget approval",yes,1.00,yes,0.91,Already returned 1 time(s): Position not vacant | Return risk: V17: POS-10608 is occupied by E200608. | Delay risk: Delete Position request
+P2P-105212,Transfer,"In progress, HRBP approval",no,0.40,no,0.38,
+P2P-105214,Transfer,"In progress, Payroll impact check",no,0.40,no,0.38,
+P2P-105215,Delete Position,"In progress, Org design review",no,0.35,no,0.50,Delay risk: Delete Position request
+P2P-105216,End of Service,"In progress, Final settlement",no,0.24,no,0.14,
+P2P-105217,End of Service,"In progress, System update",no,0.24,no,0.14,
+P2P-105218,Transfer,"In progress, HRBP approval",no,0.40,no,0.38,
+P2P-105219,End of Service,"In progress, Position action decision",yes,1.00,no,0.35,Already returned 1 time(s): Position action missing | Return risk: V15: No position action chosen.
+P2P-105220,Promotion,"Returned to you, Correct and resubmit",yes,1.00,yes,0.69,Already returned 1 time(s): Effective date must be the 1st | Return risk: V09: Effective date 2026-11-20 is not the 1st.
+P2P-105221,End of Service,"In progress, Final settlement",no,0.24,no,0.14,
+P2P-105222,Delete Position,"In progress, Org design review",no,0.46,yes,0.95,Return risk: V19: P2P-105083 (Transfer) is still open for the same position. | Delay risk: Delete Position request
+P2P-105223,Delete Position,"In progress, Org design review",yes,0.98,yes,0.93,Return risk: V17: POS-11381 is occupied by E201381. | Delay risk: Delete Position request
+P2P-105224,Transfer,"In progress, Releasing manager approval",no,0.40,no,0.38,
+P2P-105225,End of Service,"In progress, Final settlement",no,0.24,no,0.14,
+P2P-105226,Create Position,"Returned to you, Correct and resubmit",yes,1.00,yes,0.82,"Already returned 1 time(s): Budget reference missing; Grade outside job band | Return risk: V11: ""pending"" is not a valid budget reference. | Return risk: V12: G7 is outside JC-1010's band G3 to G5. | Return risk: Create Position request"
+P2P-105227,Transfer,"In progress, Payroll impact check",no,0.40,no,0.31,
+P2P-105228,Transfer,"In progress, Payroll impact check",no,0.40,no,0.38,
+P2P-105229,Promotion,"In progress, HR Ops validation",yes,1.00,yes,0.52,Already returned 1 time(s): Invalid grade change | Return risk: V07: New grade G3 is +0 from G3.
+P2P-105230,Create Position,"In progress, HRBP approval",no,0.48,no,0.37,Return risk: Create Position request
+P2P-105231,Promotion,"In progress, System update",no,0.35,no,0.31,
+P2P-105232,End of Service,"In progress, HR Ops validation",no,0.24,yes,0.85,"Waiting 22 h at HR Ops validation, longer than 90% of past requests (14 h)"
+P2P-105233,Delete Position,"In progress, Org design review",yes,1.00,yes,0.79,Return risk: V01: Effective date 2026-10-12 is 4 days after submission. | Delay risk: Delete Position request
+P2P-105234,Promotion,"Returned to you, Correct and resubmit",yes,1.00,no,0.31,Already returned 1 time(s): Clarification requested
+P2P-105235,End of Service,"In progress, Final settlement",no,0.24,no,0.19,
+P2P-105236,Transfer,"In progress, Releasing manager approval",yes,1.00,yes,0.90,"Already returned 1 time(s): Target position not available; Grade change too large for a transfer | Return risk: V04: POS-10249 is occupied by E200249. | Return risk: V05: Grade moves from G8 to G11, a change of 3."
+P2P-105237,Delete Position,"In progress, Org design review",no,0.35,no,0.50,Delay risk: Delete Position request
+P2P-105238,Promotion,"Returned to you, Correct and resubmit",yes,1.00,yes,0.52,Already returned 1 time(s): Invalid grade change | Return risk: V07: New grade G9 is +3 from G6.
+P2P-105239,Transfer,"In progress, HRBP approval",no,0.40,no,0.31,
+P2P-105240,Create Position,"In progress, Org design review",no,0.48,no,0.37,Return risk: Create Position request
+P2P-105241,Transfer,"In progress, HR Ops validation",yes,1.00,yes,0.98,"Already returned 1 time(s): Target position not available; Grade change too large for a transfer; Effective date too soon | Return risk: V01: Effective date 2026-10-14 is 6 days after submission. | Return risk: V04: POS-12817 is occupied by E202817. | Return risk: V05: Grade moves from G6 to G8, a change of 2."
+P2P-105242,Transfer,"In progress, Releasing manager approval",no,0.40,no,0.31,
+P2P-105243,Transfer,"In progress, Releasing manager approval",no,0.40,no,0.31,
+P2P-105244,Promotion,"In progress, HR Ops validation",yes,1.00,no,0.31,Already returned 1 time(s): Clarification requested
+P2P-105245,End of Service,"In progress, Position action decision",no,0.24,no,0.19,
+P2P-105246,Promotion,"Returned to you, Correct and resubmit",yes,1.00,no,0.43,Already returned 1 time(s): Approval routing: director approval missing | Return risk: V10: G6 to G8 needs director approval.
+P2P-105247,Promotion,"In progress, Compensation review",no,0.35,no,0.31,
+P2P-105248,Transfer,"In progress, HR Ops validation",no,0.40,yes,0.85,"Waiting 17 h at HR Ops validation, longer than 90% of past requests (15 h)"
+P2P-105249,Promotion,"Returned to you, Correct and resubmit",yes,1.00,yes,0.69,Already returned 1 time(s): Effective date must be the 1st | Return risk: V09: Effective date 2026-11-26 is not the 1st.
+P2P-105250,Promotion,"In progress, HR Ops validation",no,0.45,yes,0.85,"Waiting 14 h at HR Ops validation, longer than 90% of past requests (14 h) | Return risk: V10: G12 to G14 needs director approval."
+P2P-105251,Transfer,"In progress, HR Ops validation",no,0.51,yes,0.92,Return risk: V19: P2P-105195 (Transfer) is still open for the same position.
+P2P-105252,Create Position,"In progress, Org design review",no,0.48,no,0.37,Return risk: Create Position request
+P2P-105253,Promotion,"In progress, HRBP approval",yes,0.99,yes,0.61,Return risk: V09: Effective date 2026-11-29 is not the 1st.
+P2P-105254,Create Position,"Returned to you, Correct and resubmit",yes,1.00,yes,0.80,"Already returned 1 time(s): Budget reference missing; Role profile missing | Return risk: V11: ""pending"" is not a valid budget reference. | Return risk: V14: No role profile attached. | Return risk: Create Position request"
+P2P-105255,Promotion,"In progress, HRBP approval",no,0.35,no,0.31,
+P2P-105256,End of Service,"In progress, Position action decision",no,0.24,no,0.19,
+P2P-105257,Transfer,"In progress, Releasing manager approval",no,0.51,yes,0.92,Return risk: V19: P2P-105177 (Transfer) is still open for the same position.
+P2P-105258,Delete Position,"In progress, Org design review",no,0.35,no,0.42,Delay risk: Delete Position request
+P2P-105259,Promotion,"Returned to you, Correct and resubmit",yes,1.00,yes,0.69,Already returned 1 time(s): Effective date must be the 1st | Return risk: V09: Effective date 2026-11-17 is not the 1st.
+P2P-105260,Promotion,"In progress, HR Ops validation",yes,0.99,yes,0.64,"Return risk: V03: POS-11553 is held by E201553, not E202431."
+P2P-105261,Create Position,"In progress, HR Ops validation",yes,0.99,yes,0.66,Return risk: V12: G9 is outside JC-1020's band G5 to G7. | Return risk: Create Position request
+P2P-105262,Promotion,"In progress, HR Ops validation",no,0.45,no,0.43,Return risk: V10: G11 to G12 needs director approval.
+P2P-105263,End of Service,"In progress, Position action decision",no,0.24,no,0.14,
+P2P-105264,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105265,Delete Position,"Returned to you, Correct and resubmit",yes,1.00,yes,0.98,Already returned 1 time(s): Effective date too soon | Return risk: V01: Effective date 2026-10-16 is 4 days after submission. | Return risk: V19: P2P-105258 (Delete Position) is still open for the same position. | Delay risk: Delete Position request
+P2P-105266,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105267,Promotion,"Returned to you, Correct and resubmit",yes,1.00,yes,0.71,Already returned 1 time(s): Justification missing | Return risk: V08: Justification has 0 characters. | Return risk: V10: G6 to G8 needs director approval.
+P2P-105268,Delete Position,"In progress, Org design review",no,0.46,yes,0.93,"Return risk: V19: P2P-105098 (Transfer), P2P-105197 (Transfer) is still open for the same position. | Delay risk: Delete Position request"
+P2P-105269,Create Position,"In progress, Org design review",no,0.47,no,0.30,Return risk: Create Position request
+P2P-105270,Delete Position,"Returned to you, Correct and resubmit",yes,1.00,yes,0.93,Already returned 1 time(s): Position not vacant | Return risk: V17: POS-12454 is occupied by E202454. | Delay risk: Delete Position request
+P2P-105271,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105272,End of Service,"In progress, Position action decision",no,0.24,no,0.14,
+P2P-105273,Transfer,"In progress, HR Ops validation",no,0.40,no,0.38,
+P2P-105274,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105275,Transfer,"In progress, HR Ops validation",no,0.51,yes,0.89,Return risk: V19: P2P-105136 (Transfer) is still open for the same position.
+P2P-105276,Promotion,"In progress, HRBP approval",no,0.35,no,0.31,
+P2P-105277,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105278,Transfer,"In progress, Releasing manager approval",no,0.40,no,0.38,
+P2P-105279,Promotion,"Returned to you, Correct and resubmit",yes,1.00,no,0.44,Already returned 1 time(s): Invalid grade change | Return risk: V07: New grade G5 is +0 from G5.
+P2P-105280,End of Service,"In progress, HR Ops validation",no,0.24,no,0.14,
+P2P-105281,End of Service,"In progress, HR Ops validation",no,0.24,no,0.19,
+P2P-105282,Transfer,"In progress, HR Ops validation",yes,1.00,yes,0.99,Return risk: V01: Effective date 2026-10-21 is 9 days after submission. | Return risk: V04: POS-10989 is occupied by E200989. | Delay risk: V16: P2P-105219 (End of Service) is still open for the same employee.
+P2P-105283,Transfer,"In progress, HR Ops validation",no,0.40,no,0.38,
+P2P-105284,Promotion,"In progress, HR Ops validation",no,0.45,no,0.43,Return risk: V10: G12 to G13 needs director approval.
+P2P-105285,Transfer,"In progress, HR Ops validation",yes,0.99,yes,0.70,"Return risk: V03: POS-10367 is held by E200367, not E200441."
+P2P-105286,Transfer,"In progress, HR Ops validation",no,0.40,no,0.38,
+P2P-105287,Create Position,"In progress, HR Ops validation",yes,1.00,yes,0.70,Return risk: V01: Effective date 2026-10-23 is 11 days after submission. | Return risk: Create Position request
+P2P-105288,End of Service,"In progress, HR Ops validation",no,0.24,no,0.19,
+P2P-105289,Delete Position,"In progress, HR Ops validation",no,0.35,no,0.50,Delay risk: Delete Position request
+P2P-105290,Promotion,"In progress, HR Ops validation",no,0.45,no,0.43,Return risk: V10: G12 to G13 needs director approval.
+P2P-105291,Transfer,"In progress, HR Ops validation",no,0.40,no,0.38,
+P2P-105292,Transfer,"In progress, HR Ops validation",yes,1.00,yes,0.99,"Return risk: V04: POS-13044 is frozen. | Return risk: V05: Grade moves from G7 to G5, a change of 2. | Return risk: V19: P2P-105258 (Delete Position), P2P-105265 (Delete Position) is still open for the same position."
+P2P-105293,Delete Position,"In progress, HR Ops validation",no,0.35,no,0.42,Delay risk: Delete Position request
+P2P-105294,Promotion,"In progress, HR Ops validation",no,0.35,no,0.31,
+P2P-105295,Transfer,"In progress, HR Ops validation",no,0.38,no,0.36,
+P2P-105296,Create Position,"In progress, HR Ops validation",no,0.48,no,0.37,Return risk: Create Position request
+P2P-105297,Delete Position,"In progress, HR Ops validation",yes,1.00,yes,0.79,Return risk: V01: Effective date 2026-10-24 is 12 days after submission. | Delay risk: Delete Position request
+P2P-105298,Promotion,"In progress, HR Ops validation",no,0.45,no,0.43,Return risk: V10: G11 to G12 needs director approval.
+P2P-105299,Transfer,"In progress, HR Ops validation",no,0.40,no,0.31,
+P2P-105300,Promotion,"In progress, HR Ops validation",yes,0.99,yes,0.72,Return risk: V09: Effective date 2026-11-25 is not the 1st. | Return risk: V10: G7 to G9 needs director approval.

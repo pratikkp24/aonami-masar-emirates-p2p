@@ -1,0 +1,18 @@
+5,159 requests and 34,271 events in the history
+141 in-flight test requests
+3,200 positions, 23 process steps, 19 validation rules | load 464 ms
+Errors at entry: 1828/1838 bad submissions caught (99.5%), 0/3462 clean submissions flagged; rule-level precision 99.4%, recall 99.4%
+Mining: 5159 completed cases over 12.4 months; return rate 35.5%, delayed 31.7%, median cycle 48.4 working h | 69 ms
+Top bottlenecks: Transfer/HR Ops validation median 7.4h vs 8h, 44% over; Create Position/Budget approval median 13.4h vs 16h, 41% over; Promotion/HR Ops validation median 7.2h vs 8h, 43% over; Promotion/Director approval median 20.7h vs 16h, 72% over
+Teams: HR Ops Central 4.8h, returns 21%; HR Ops Airport 8.4h, returns 21%
+Model trained and 141 predictions in 170 ms; thresholds return 0.55, delay 0.50
+Predict returned: accuracy 95.7%, precision 100.0%, recall 91.0%, AUC 0.982 (67 positives of 141)
+Predict delayed: accuracy 78.7%, precision 70.8%, recall 80.7%, AUC 0.848 (57 positives of 141)
+Recommendations:
+  R1 Check every request against the rules before it is sent: 1697 requests/yr, 6293 working days/yr | 1749 returns in the log had a reason a rule covers (Effective date too soon 361, Target position not available 185, Grade change too large for a transfer 183, Employee not in stated position 129); 141 were only found at system update. Median loop 30 working hours.
+  R6 Run org design review and budget approval in parallel for new positions: 781 requests/yr, 1310 working days/yr | Median org design review 14.1 h and budget approval 13.4 h, run one after the other today on 805 requests.
+  R3 Detect dependent transactions at submission and sequence them: 482 requests/yr, 1169 working days/yr | 497 requests waited on hold at system update for an average of 32 working hours.
+  R5 Balance validation work between HR Ops Airport and HR Ops Central: 3731 requests/yr, 1136 working days/yr | HR Ops Airport takes a median 8.4 working hours to validate (5278 validations) versus 4.8 for HR Ops Central.
+  R7 Replace free-text clarifications with required fields: 327 requests/yr, 771 working days/yr | 337 returns were general clarifications with no structured reason; median loop 38 working hours. Estimate assumes half can be prevented.
+  R4 Pre-approve budget for positions in the approved headcount plan: 261 requests/yr, 195 working days/yr | Finance steps take a median 15 working hours in the month-end window versus 9 otherwise (269 steps).
+  R2 Route director approval automatically: 47 requests/yr, 159 working days/yr | 48 promotions were returned by the HRBP to add the director; median loop 27 working hours.
