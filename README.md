@@ -4,6 +4,8 @@
 
 Checks each P2P request against the rules as it is filled in, tracks every request with its next owner, predicts returns and delays with the evidence, and turns the event log into costed process fixes.
 
+**Demo video (under 3 minutes):** https://www.loom.com/share/02e70c05bc044d35a12869b7f1ad4dae
+
 **Live prototype:** https://aonami-masar.vercel.app. It is hosted, needs no install, and runs entirely in your browser with no cloud AI. Press **Guided demo** for a walk-through.
 
 ## Results on our held-out test set
